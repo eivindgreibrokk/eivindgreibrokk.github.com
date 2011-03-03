@@ -4,5 +4,252 @@ id: 	home
 title: Home
 ---
 <div id="home">
-Me on Github!
+        <div class="container"> 
+            <div class="header"> 
+                <h1>Eivind.Greibrokk.com</h1> 
+            </div> 
+ 
+            <div class="content"> 
+                <div class="formsblock"> 
+                    <p>Favorites:</p> 
+                    <form action="http://www.yr.no/soek.aspx" method="post" target="_top"> 
+                        <input maxlength="255" size="15" name="sted"> 
+                        <input value="Yr.no" type="submit"> 
+                    </form> 
+                    <form action="http://en.wikipedia.org/wiki/Special:Search" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="search"> 
+                        <input value="Wikipedia EN" type="submit"> 
+                    </form> 
+                    <form action="http://no.wikipedia.org/wiki/Special:Search" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="search"> 
+                        <input value="Wikipedia NO" type="submit"> 
+                    </form> 
+                    <form action="http://www.youtube.com/results" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="search_query"> 
+                        <input value="YouTube" type="submit"> 
+                    </form> 
+                    <form action="http://www.imdb.com/find" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="q"> 
+                        <input value="IMDB" type="submit"> 
+                    </form> 
+                    <form action="http://www.purehelp.no/sok/search.asp" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="str_sok"> 
+                        <input value="Purehelp" type="submit"> 
+                    </form> 
+                    <p>Language:</p> 
+                    <form action="http://www.dokpro.uio.no/perl/ordboksoek/ordbok.cgi" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="OPP"> 
+                        <input value="Norwegian Dictionary" type="submit"> 
+                    </form> 
+                    <form name="wd_search_form" action="http://www.ordnett.no/ordbok.html"> 
+                        <input maxlength="255" size="15" id="search" type="text" name="search" value=""> 
+                        <input class="button" type="submit" value="Ordnett.no"> 
+                        <input type="hidden" name="publications" value="20"> 
+                        <input type="hidden" name="publications" value="23"> 
+                        <input type="hidden" name="publications" value="33"> 
+                        <input type="hidden" name="publications" value="36"> 
+                    </form> 
+                    <form action="http://translate.google.com" method="post" id="text_form" name="text_form" enctype="application/x-www-form-urlencoded"> 
+                        <input type="hidden" name="sl" value="en"> 
+                        <input type="hidden" name="tl" value="no"> 
+                        <input maxlength="255" size="15" name="text"> 
+                        <input type="submit" id="old_submit" value="Translate (EN->NO)"> 
+                    </form> 
+                    <form action="http://translate.google.com" method="post" id="text_form" name="text_form" enctype="application/x-www-form-urlencoded"> 
+                        <input type="hidden" name="sl" value="no"> 
+                        <input type="hidden" name="tl" value="en"> 
+                        <input maxlength="255" size="15" name="text"> 
+                        <input type="submit" id="old_submit" value="Translate (NO->EN)"> 
+                    </form> 
+                    <p>Shopping:</p> 
+                    <form action="http://www.prisguide.no/sok" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="pg-q"> 
+                        <input value="Prisguide.no" type="submit"> 
+                    </form> 
+                    <form action="http://old.prisguide.no/fritekst_sok.php" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="pricefind"> 
+                        <input value="old.prisguide.no" type="submit"> 
+                    </form> 
+                    <form action="http://shopping.kelkoo.no/ctl/do/search" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="siteSearchQuery"> 
+                        <input value="Kelkoo.no" type="submit"> 
+                    </form> 
+                    <form action="http://dinpris.no" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="q"> 
+                        <input value="DinPris" type="submit"> 
+                    </form> 
+                    <form action="http://www.alibaba.com/trade/search" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="SearchText"> 
+                        <input value="Alibaba" type="submit"> 
+                    </form> 
+                    <form action="http://www.amazon.com/s/ref=nb_ss_gw" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="field-keywords"> 
+                        <input name="url" value="search-alias=aps" type="hidden"> 
+                        <input value="Amazon" type="submit"> 
+                    </form> 
+                    <p>Tech:</p> 
+                    <form action="https://www.domeneshop.no/whois.cgi" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="domainname"> 
+                        <input value="WhoIs" type="submit"> 
+                    </form> 
+                    <form action="http://toolbar.netcraft.com/site_report" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="url"> 
+                        <input value="Netcraft" type="submit"> 
+                    </form> 
+                    <form action="http://www.codefetch.com/search" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="qy"> 
+                        <input name="lang" value="java" type="hidden"> 
+                        <input value="CodeFetch Java" type="submit"> 
+                    </form> 
+                    <p>Misc:</p> 
+                    <form action="http://kart.gulesider.no/kart/search.c" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="q"> 
+                        <input value="Gule Sider kart" type="submit"> 
+                    </form> 
+                    <form action="http://www.gulesider.no/tk/search.c" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="q"> 
+                        <input value="Phone number" type="submit"> 
+                    </form> 
+                    <form action="http://www.timeanddate.com/norsk/kalender.html" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="year"> 
+                        <input value="Calendar" type="submit"> 
+                    </form> 
+                    <form action="http://www.google.com/search" method="get" target="_top"> 
+                        <input maxlength="255" size="15" name="q"> 
+                        <input value="Google" type="submit"> 
+                    </form> 
+                </div> 
+                <div class="linksblock1"> 
+                    <p>News:</p> 
+                    <a href="http://www.nettavisen.no/" target="_blank">Nettavisen</a><br> 
+                    <a href="http://www.aftenposten.no/" target="_blank">Aftenposten</a><br> 
+                    <a href="http://www.vg.no/" target="_blank">VG</a><br> 
+                    <a href="http://www.dagbladet.no/" target="_blank">Dagbladet</a><br> 
+                    <a href="http://www.nrk.no/" target="_blank">NRK</a><br> 
+                    <a href="http://www.fvn.no/" target="_blank">FVN</a><br> 
+                    <a href="http://agderposten.no/" target="_blank">Agderposten</a><br> 
+                    <a href="http://www.hegnar.no/" target="_blank">Hegnar Online</a><br> 
+                    <a href="http://www.dn.no/" target="_blank">Dagens N&aelig;ringsliv</a><br> 
+                    <br> 
+                    <p>Tech News:</p> 
+                    <a href="http://digi.no/" target="_blank">Digi.no</a><br> 
+                    <a href="http://www.itavisen.no/" target="_blank">ITavisen</a><br> 
+                    <a href="http://www.hardware.no/" target="_blank">Hardware.no</a><br> 
+                    <a href="http://www.dinside.no/" target="_blank">Din Side</a><br> 
+                    <a href="http://www.idg.no/computerworld/" target="_blank">Computerworld</a><br> 
+                    <a href="http://slashdot.org/" target="_blank">Slashdot</a><br> 
+                    <a href="http://www.wired.com/" target="_blank">Wired</a><br> 
+                    <a href="http://www.engadget.com/" target="_blank">Engadget</a><br> 
+                    <a href="http://www.lydogbilde.no/" target="_blank">Lyd &amp; Bilde</a><br> 
+                    <br> 
+                    <p>Google:</p> 
+                    <a href="http://gmail.google.com/" target="_blank">Gmail</a><br> 
+                    <a href="http://docs.google.com/" target="_blank">Google Docs</a><br> 
+                    <a href="http://www.google.com/" target="_blank">Google search</a><br> 
+                </div> 
+                <div class="linksblock2"> 
+                    <p>Online Shops:</p> 
+                    <a href="http://www.komplett.no/k/k.aspx?action=weekly" target="_blank">Komplett</a><br> 
+                    <a href="http://www.mpx.no/default.aspx?phg=11" target="_blank">MPX</a><br> 
+                    <a href="http://www.ps.no/ukensprisbomber.aspx" target="_blank">PSdata</a><br> 
+                    <a href="http://www.amentio.no/Campaign.aspx?q=fl:5887" target="_blank">Amentio</a><br> 
+                    <a href="http://www.dustinhome.no/" target="_blank">Dustin home</a><br> 
+                    <a href="http://www.apple.com/no/mac/" target="_blank">Apple</a><br> 
+                    <br> 
+                    <p>Physical &amp; Online Shops:</p> 
+                    <a href="http://www.lefdal.com/is-bin/INTERSHOP.enfinity/WFS/store-lefdal-Site/nb_NO/-/NOK/El_GetCMSContent-Start;?ContentKey=5900" target="_blank">Lefdal</a><br> 
+                    <a href="http://www.elkjop.no/is-bin/INTERSHOP.enfinity/WFS/store-elkjop-Site/no_NO/-/NOK/El_GetCMSContent-Start;pgid=oyCz6oZK.LxSR0EjcIZBwx1e0000t-C6iUmX;sid=1GLYS3rXGATbSzOBTI4TTZsUIaDtHmC1gxU=?ContentKey=3181&MenuId=" target="_blank">Elkj&oslash;p</a><br> 
+                    <a href="http://www.euronics.no/" target="_blank">Euronics</a><br> 
+                    <a href="http://www.elprice.no/" target="_blank">elprice.no</a><br> 
+                    <a href="http://www.expert.no/" target="_blank">Expert</a><br> 
+                    <a href="http://digitalimpuls.no/" target="_blank">Digital Impuls</a><br> 
+                    <a href="http://platekompaniet.no/" target="_blank">Platekompaniet</a><br> 
+                    <a href="http://www.biltema.no/" target="_blank">Biltema</a><br> 
+                    <a href="http://www.jula.no/" target="_blank">Jula</a><br> 
+                    <a href="http://clasohlson.no/" target="_blank">Clas Ohlson</a><br> 
+                    <a href="http://www.ikea.no/" target="_blank">Ikea</a><br> 
+                    <br> 
+                    <p>Foreign Online Shops:</p> 
+                    <a href="http://www.toll.no/templates_TAD/Tolltariffen/TvinnExchangeRates.aspx?id=98&epslanguage=NO" target="_blank">-=Tollkurs=-</a><br> 
+                    <a href="http://www.dealextreme.com/" target="_blank">DealExtreme</a><br> 
+                    <a href="http://cdon.no/" target="_blank">CDON</a><br> 
+                    <a href="http://play.com/" target="_blank">Play.com</a><br> 
+                    <a href="http://www.newegg.com/" target="_blank">Newegg.com</a><br> 
+                    <br> 
+                    <p>Know IT Objectnet:</p> 
+                    <a href="https://webmail.knowit.no/" target="_blank">Webmail</a><br> 
+                    <a href="https://projects.knowit.no/" target="_blank">Projects</a><br> 
+                </div> 
+                <div class="linksblock3"> 
+                    <p>Development:</p> 
+                    <a href="http://www.w3schools.com/" target="_blank">W3C Schools</a><br> 
+                    <a href="http://www.theserverside.com/" target="_blank">TheServerSide</a><br> 
+                    <a href="http://www.infoq.com/" target="_blank">InfoQ</a><br> 
+                    <a href="http://eivindgreibrokk.blogspot.com/" target="_blank">Tech Blog</a><br> 
+                    <a href="http://www.home.no/medlem/gjestebok.cgi?user=eivindgreibrokk" target="_blank">Tech log</a><br> 
+                    <a href="http://www.blooberry.com/indexdot/html/topics/urlencoding.htm" target="_blank">URL encode</a><br> 
+                    <a href="http://www.december.com/html/spec/ascii.html" target="_blank">ASCII</a><br> 
+                    <a href="http://sourceforge.net/" target="_blank">SourceForge</a><br> 
+                    <br> 
+                    <p>Java:</p> 
+                    <a href="http://java.sun.com/reference/api/index.html" target="_blank">Sun Java API</a><br> 
+                    <a href="http://java.sun.com/j2se/1.5.0/docs/api" target="_blank">J2SE 5.0</a><br> 
+                    <a href="http://java.sun.com/javase/6/docs/api" target="_blank">J2SE 6</a><br> 
+                    <a href="http://java.sun.com/javaee/5/docs/api/" target="_blank">Java EE 5</a><br> 
+                    <br> 
+                    <p>Misc:</p> 
+                    <a href="http://www.bloglines.com/" target="_blank">Bloglines</a><br> 
+                    <a href="https://webmail.domeneshop.no/" target="_blank">Mail Domeneshop</a><br> 
+                    <a href="http://www.guerrillamail.com/" target="_blank">Guerrilla (tmp)</a><br> 
+                    <a href="http://domeneshop.no/" target="_blank">Domeneshop</a><br> 
+                    <a href="http://www.itavisen.no/speedometeret/" target="_blank">Speedometeret</a><br> 
+                    <a href="http://kukuklok.com/" target="_blank">Kuku Klok (alarm)</a><br> 
+                    <a href="http://eivindgreibrokk.tadalist.com/" target="_blank">Ta-da List</a><br> 
+                    <a href="http://www.acapela-group.com/text-to-speech-interactive-demo.html" target="_blank">Text-to-speech</a><br> 
+                    <a href="http://www1.nrk.no/nett-tv" target="_blank">NRK Nett-TV</a><br> 
+                </div> 
+                <div class="linksblock4"> 
+                    <p>Kristiansand:</p> 
+                    <a href="http://www.krskino.no/" target="_blank">Krsand kino</a><br> 
+                    <a href="http://www.olive.no/restauranter/vestagder/kristiansand.html" target="_blank">Restaurant</a><br> 
+                    <a href="http://www.yr.no/sted/Norge/Vest-Agder/Kristiansand/Gangdals%C3%A5sen/time_for_time.html" target="_blank">Gangdals&aring;sen (yr)</a><br> 
+                    <a href="http://www.yr.no/sted/Norge/Aust-Agder/Bygland/Valebj%C3%B8rg/time_for_time.html" target="_blank">Valebj&oslash;rg (yr)</a><br> 
+                    <a href="http://ok24.greibrokk.com/" target="_blank">OK24</a><br> 
+                    <a href="http://picasaweb.google.com/eivind.greibrokk/OK242008?authkey=f9144Zio4Hk" target="_blank">OK24 08 Pics</a><br> 
+                    <a href="http://www.kristiansand.kommune.no/" target="_blank">Krs Kommune</a><br> 
+                    <a href="http://webkamera.vegvesen.no/kamera?id=100089" target="_blank">WebCam E18</a><br> 
+                    <a href="http://gdvel.no/" target="_blank">Gangdalen Nord Vel</a><br> 
+                    <br> 
+                    <p>Transport:</p> 
+                    <a href="http://www.177-agder.no/" target="_blank">177-agder</a><br> 
+                    <a href="http://agder.websrv02.reiseinfo.no/AgderIISSTaticTables/Tables/ruter/t/30.htm" target="_blank">Rute 30</a><br> 
+                    <a href="http://agder.websrv02.reiseinfo.no/AgderIISSTaticTables/Tables/ruter/t/32.htm" target="_blank">Rute 32</a><br> 
+                    <a href="http://www.konkurrenten.no/" target="_blank">Konkurrenten</a><br> 
+                    <a href="https://lavprisekspressen.no/" target="_blank">Lavprisekspressen</a><br> 
+                    <a href="http://bestilling.nor-way.no/nbeiis/statictable/statictable.aspx?Language=o&Route=190&Direction=T&Product=P1" target="_blank">NOR-WAY Buss</a><br> 
+                    <a href="http://www.nsb.no/" target="_blank">NSB</a><br> 
+                    <br> 
+                    <p>Travel:</p> 
+                    <a href="http://momondo.com/" target="_blank">Momondo</a><br> 
+                    <a href="http://www.finn.no/reise/" target="_blank">Finn.no - Reise</a><br> 
+                    <a href="http://www.functravel.no/" target="_blank">Func Travel</a><br> 
+                    <a href="http://www.supersaver.no/" target="_blank">Supersaver</a><br> 
+                    <a href="http://www.hotels.com/" target="_blank">Hotels.com</a><br> 
+                    <a href="http://norwegian.no/" target="_blank">Norwegian</a><br> 
+                    <a href="http://www.sas.no/" target="_blank">SAS</a><br> 
+                    <a href="http://www.klm.no" target="_blank">KLM</a><br> 
+                    <a href="" target="_blank"></a><br> 
+                    <a href="" target="_blank"></a><br> 
+                </div> 
+            </div> 
+ 
+            <div class="footer"> 
+                <a class="footer" href="http://links.greibrokk.com" target="_blank">Links</a> 
+                <a class="footer" href="http://tobias.greibrokk.com/" target="_blank">Tobias</a> 
+                <a class="footer" href="http://kira.greibrokk.com/" target="_blank">Kira</a> 
+                <a class="footer" href="http://sven.greibrokk.com/" target="_blank">Sven</a> 
+                <a class="footer" href="http://turid.greibrokk.com/" target="_blank">Turid</a> 
+                <a class="footer" href="http://jorund.greibrokk.com/" target="_blank">J&oslash;rund</a> 
+            </div> 
+        </div> 
 </div>

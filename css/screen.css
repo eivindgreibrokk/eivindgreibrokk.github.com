@@ -5,11 +5,135 @@
 /*****************************************************************************/
 
 /* Global Reset */
-
-* {
-	margin: 0;
-	padding: 0;
-}
+            *{
+                padding: 0px;
+                margin: 0px;
+            }
+ 
+            body
+            {
+                background-image:url('gradient.png');
+                background-repeat:repeat-x;
+                background-color: white;
+            }
+ 
+            div.container
+            {
+                margin-left:auto;
+                margin-right:auto;
+                width:900px;
+                margin-top: 30px;
+                border: 0px solid black;
+            }
+ 
+            p {
+                font-family: "Times New Roman";
+                font-size: 10px;
+                letter-spacing: 1px;
+            }
+ 
+            a {
+                text-decoration: none;
+                color: #5555FF;
+                font: 12px verdana, arial, sans-serif;
+            }
+ 
+            a:hover
+            {
+                color: #000077;
+            }
+ 
+            div.header,div.footer
+            {
+                background-color: #FFFFFF;
+                border-width: 1px;
+                border-color: #555555;
+                border-style: solid;
+                letter-spacing:4px;
+                padding: 4px;
+                color:black;
+                float: none;
+                font-variant:small-caps;
+                text-align: center;
+            }
+ 
+            h1
+            {
+                font: 14px verdana, arial, sans-serif;
+                letter-spacing: 0.5cm;
+                color: #666666;
+                text-align: center;
+            }
+ 
+            .content
+            {
+                border: 0px solid;
+                border-color: #555555;
+                margin-top: 3px;
+                margin-bottom: 3px;
+            }
+ 
+            .inline-block, .formsblock, .linksblock1, .linksblock2, .linksblock3, .linksblock4
+            {
+                width: auto;
+                vertical-align: top;         /* results in a great looking grid: */
+                display: -moz-inline-stack;  /* Firefox2 need this to simulate display:inline-block   */
+                display: inline-block;       /* ie does not apply this to Block Element, and Firefox2 */
+                /* does not render this, too                             */
+                zoom:1;                      /* fix ie7, trigger hasLayout */
+                /* element will make display:inline behave like display:inline-block */
+                _overflow:hidden;            /* fix ie6, to expanded content */
+                _height: .1em;               /* fix ie6, treats height as min-height */
+ 
+                /*margin-left: -3px;          /* fix w3c, if the inline-block element has float:none; then a */
+                /* 3px gap will appear between inline-block elements. */
+                /* *margin-left: 0;             /* fix ie7, no 3px gap on ie7 */
+                padding: 7px;
+                margin: 0px;
+                border:0px solid;
+                background-color: white;
+                height: 610px;
+                *display:inline;             /* fix ie6+ie7, once hasLayout is true, set display:inline to block  */
+            }
+ 
+            .formsblock
+            {
+                width: 30%;
+                max-width: 30%;
+            }
+ 
+            .linksblock1
+            {
+                width: 15%;
+                max-width: 15%;
+                xborder:1px solid blue;
+            }
+ 
+            .linksblock2
+            {
+                width: 15%;
+                max-width: 15%;
+                xborder:2px solid red;
+            }
+ 
+            .linksblock3
+            {
+                width: 15%;
+                max-width: 15%;
+                xborder:2px solid lime;
+            }
+ 
+            .linksblock4
+            {
+                width: 15%;
+                max-width: 15%;
+                xborder:2px solid green;
+            }
+ 
+            a.footer
+            {
+                padding:0.3em 0.5em;
+            }
 
 html, body {
 	height: 100%;
